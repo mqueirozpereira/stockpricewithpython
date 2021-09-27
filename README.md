@@ -1,5 +1,7 @@
-# stockpricewithpython
-Estudo de python e machine learning usando modelos já conhecidos para aplicação em mercado financeiro
-Estaremos utilizando como base Python + RNN (LSTM + GRU) e um modelo já utilizado que pode ser visto abaixo.
-https://www.kaggle.com/taronzakaryan/predicting-stock-price-using-lstm-model-pytorch
-que está utilizando licença apache 2.0
+<p>Estudo de python e machine learning usando modelos j&aacute; conhecidos para aplica&ccedil;&atilde;o em mercado financeiro<br />Estaremos utilizando como base <strong>Python</strong> + <strong>RNN</strong> (<strong>LSTM</strong> + <strong>GRU</strong>) e um modelo j&aacute; utilizado que pode ser visto abaixo.<br />https://www.kaggle.com/taronzakaryan/predicting-stock-price-using-lstm-model-pytorch<br />que est&aacute; utilizando licen&ccedil;a apache 2.0</p>
+<h3>RNN</h3>
+<p>S&atilde;o Redes Neurais Recorrentes (Recurrent Neural Networks) Uma classe de redes neurais artificiaisUsam mem&oacute;ria do estado interno para processar sequ&ecirc;ncias</p>
+<h4>LSTM</h4>
+<p><span style="font-weight: 400;">Long Short Memory: </span><span style="font-weight: 400;">&Eacute; uma arquitetura de RNN com conex&otilde;es de feedback c</span><span style="font-weight: 400;">omposta por uma c&eacute;lula em que possui uma porta de entrada, uma porta de sa&iacute;da e uma porta de esquecimento. </span><span style="font-weight: 400;">A c&eacute;lula lembra valores em intervalos de tempo e as 3 portas regulam o fluxo de informa&ccedil;&otilde;es</span></p>
+<h4>GRU</h4>
+<p><span style="font-weight: 400;">&Eacute; uma varia&ccedil;&atilde;o do LTSM, mas sem uma porta de sa&iacute;da, t</span><span style="font-weight: 400;">amb&eacute;m &eacute; usada para resolver o problema da &ldquo;mem&oacute;ria de curto prazo&rdquo;, comuns em RNNs e c</span><span style="font-weight: 400;">ontribui para reter as depend&ecirc;ncias de longo prazo nos dados sequenciais</span></p>
